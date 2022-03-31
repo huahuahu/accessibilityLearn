@@ -19,6 +19,7 @@
 		60DA464827F5D6AC00C247AB /* AccessibilityCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA464727F5D6AC00C247AB /* AccessibilityCase.swift */; };
 		60DA464A27F5DBF600C247AB /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA464927F5DBF600C247AB /* BaseModel.swift */; };
 		60DA465027F5E42C00C247AB /* UIKitItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA464F27F5E42C00C247AB /* UIKitItems.swift */; };
+		60DA465327F5E57000C247AB /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA465227F5E57000C247AB /* PostNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		60DA464727F5D6AC00C247AB /* AccessibilityCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityCase.swift; sourceTree = "<group>"; };
 		60DA464927F5DBF600C247AB /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		60DA464F27F5E42C00C247AB /* UIKitItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitItems.swift; sourceTree = "<group>"; };
+		60DA465227F5E57000C247AB /* PostNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		60DA464C27F5E3FE00C247AB /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				60DA465127F5E55800C247AB /* Basic */,
 				60DA464E27F5E40E00C247AB /* Model */,
 			);
 			path = UIKit;
@@ -174,6 +177,14 @@
 				60DA464F27F5E42C00C247AB /* UIKitItems.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		60DA465127F5E55800C247AB /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				60DA465227F5E57000C247AB /* PostNotification.swift */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DA465327F5E57000C247AB /* PostNotification.swift in Sources */,
 				60DA461B27F5D56000C247AB /* ViewController.swift in Sources */,
 				60DA461727F5D56000C247AB /* AppDelegate.swift in Sources */,
 				60DA464827F5D6AC00C247AB /* AccessibilityCase.swift in Sources */,

@@ -9,12 +9,12 @@ import Foundation
 import UIKit
 
 enum UIKitItems: String, CaseIterable {
-  case text
+  case postNotification
 
   var item: Item {
     switch self {
-    case .text:
-      return .detail(title: rawValue, vc: UIViewController())
+    case .postNotification:
+      return .detail(title: rawValue, vc: TestPostNotificationVC())
     }
   }
 }
