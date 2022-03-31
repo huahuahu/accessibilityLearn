@@ -10,11 +10,14 @@ import UIKit
 
 enum UIKitItems: String, CaseIterable {
   case postNotification
+  case tableViewCell
 
   var item: Item {
     switch self {
     case .postNotification:
       return .detail(title: rawValue, vc: TestPostNotificationVC())
+    case .tableViewCell:
+      return .detail(title: rawValue, vc: TestTableViewVC())
     }
   }
 }

@@ -20,6 +20,7 @@
 		60DA464A27F5DBF600C247AB /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA464927F5DBF600C247AB /* BaseModel.swift */; };
 		60DA465027F5E42C00C247AB /* UIKitItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA464F27F5E42C00C247AB /* UIKitItems.swift */; };
 		60DA465327F5E57000C247AB /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA465227F5E57000C247AB /* PostNotification.swift */; };
+		60DA465527F5E83900C247AB /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA465427F5E83900C247AB /* TestTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		60DA464927F5DBF600C247AB /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		60DA464F27F5E42C00C247AB /* UIKitItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitItems.swift; sourceTree = "<group>"; };
 		60DA465227F5E57000C247AB /* PostNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNotification.swift; sourceTree = "<group>"; };
+		60DA465427F5E83900C247AB /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				60DA465227F5E57000C247AB /* PostNotification.swift */,
+				60DA465427F5E83900C247AB /* TestTableViewCell.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				60DA461727F5D56000C247AB /* AppDelegate.swift in Sources */,
 				60DA464827F5D6AC00C247AB /* AccessibilityCase.swift in Sources */,
 				60DA461927F5D56000C247AB /* SceneDelegate.swift in Sources */,
+				60DA465527F5E83900C247AB /* TestTableViewCell.swift in Sources */,
 				60DA464A27F5DBF600C247AB /* BaseModel.swift in Sources */,
 				60DA465027F5E42C00C247AB /* UIKitItems.swift in Sources */,
 			);
