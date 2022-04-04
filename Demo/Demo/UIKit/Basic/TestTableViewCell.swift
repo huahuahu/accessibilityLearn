@@ -23,6 +23,9 @@ import UIKit
 // 4. What if I like the default behaviour but want to exclude just a couple of elements?
 // – Just set isAccessibilityElement = false to items you don’t want.
 
+// Seem logic
+// accessibilityElements?
+//
 class HLabel: UILabel {
   override var isAccessibilityElement: Bool {
     get {
@@ -36,15 +39,15 @@ class HLabel: UILabel {
 }
 
 private class HCell: UITableViewCell {
-  override var accessibilityElements: [Any]? {
-    set {
-      super.accessibilityElements = newValue
-    }
-    get {
-      print("\(super.accessibilityElements)")
-      return super.accessibilityElements
-    }
-  }
+//  override var accessibilityElements: [Any]? {
+//    set {
+//      super.accessibilityElements = newValue
+//    }
+//    get {
+//      print("\(super.accessibilityElements)")
+//      return [upperLabel]
+//    }
+//  }
 
   let upperLabel: HLabel = {
     let label = HLabel()
@@ -90,6 +93,8 @@ private class HCell: UITableViewCell {
     upperLabel.text = "Upper \(str)"
     print("upperlable isAccessibilityElement \(isAccessibilityElement)")
     lowerLabel.text = "lower \(str)"
+//      self.isAccessibilityElement = true
+//      self.accessibilityLabel = "\(upperLabel.text) \(lowerLabel.text)"
   }
 }
 

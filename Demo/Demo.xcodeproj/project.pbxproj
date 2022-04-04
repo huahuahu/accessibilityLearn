@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601D069227FB19B0008699D7 /* BasicAcceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D069127FB19B0008699D7 /* BasicAcceViewController.swift */; };
+		601D069727FB1F45008699D7 /* ToggleWithTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D069627FB1F45008699D7 /* ToggleWithTextView.swift */; };
+		601D069927FB2550008699D7 /* SelectionWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D069827FB2550008699D7 /* SelectionWithTitle.swift */; };
+		601D069B27FB2929008699D7 /* LabelWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D069A27FB2929008699D7 /* LabelWithText.swift */; };
 		60DA461727F5D56000C247AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA461627F5D56000C247AB /* AppDelegate.swift */; };
 		60DA461927F5D56000C247AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA461827F5D56000C247AB /* SceneDelegate.swift */; };
 		60DA461B27F5D56000C247AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA461A27F5D56000C247AB /* ViewController.swift */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601D069127FB19B0008699D7 /* BasicAcceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAcceViewController.swift; sourceTree = "<group>"; };
+		601D069627FB1F45008699D7 /* ToggleWithTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleWithTextView.swift; sourceTree = "<group>"; };
+		601D069827FB2550008699D7 /* SelectionWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionWithTitle.swift; sourceTree = "<group>"; };
+		601D069A27FB2929008699D7 /* LabelWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithText.swift; sourceTree = "<group>"; };
 		60DA461327F5D56000C247AB /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DA461627F5D56000C247AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DA461827F5D56000C247AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601D069327FB19CF008699D7 /* BasicAttribute */ = {
+			isa = PBXGroup;
+			children = (
+				601D069127FB19B0008699D7 /* BasicAcceViewController.swift */,
+			);
+			path = BasicAttribute;
+			sourceTree = "<group>";
+		};
+		601D069427FB1F0D008699D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				601D069527FB1F15008699D7 /* Common */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		601D069527FB1F15008699D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				601D069627FB1F45008699D7 /* ToggleWithTextView.swift */,
+				601D069827FB2550008699D7 /* SelectionWithTitle.swift */,
+				601D069A27FB2929008699D7 /* LabelWithText.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		60DA460A27F5D56000C247AB = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +143,7 @@
 		60DA461527F5D56000C247AB /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				601D069427FB1F0D008699D7 /* View */,
 				60DA464D27F5E40700C247AB /* Web */,
 				60DA464C27F5E3FE00C247AB /* UIKit */,
 				60DA464B27F5E3FA00C247AB /* SwiftUI */,
@@ -186,6 +221,7 @@
 			children = (
 				60DA465227F5E57000C247AB /* PostNotification.swift */,
 				60DA465427F5E83900C247AB /* TestTableViewCell.swift */,
+				601D069327FB19CF008699D7 /* BasicAttribute */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -321,13 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601D069927FB2550008699D7 /* SelectionWithTitle.swift in Sources */,
 				60DA465327F5E57000C247AB /* PostNotification.swift in Sources */,
 				60DA461B27F5D56000C247AB /* ViewController.swift in Sources */,
+				601D069B27FB2929008699D7 /* LabelWithText.swift in Sources */,
 				60DA461727F5D56000C247AB /* AppDelegate.swift in Sources */,
+				601D069727FB1F45008699D7 /* ToggleWithTextView.swift in Sources */,
 				60DA464827F5D6AC00C247AB /* AccessibilityCase.swift in Sources */,
 				60DA461927F5D56000C247AB /* SceneDelegate.swift in Sources */,
 				60DA465527F5E83900C247AB /* TestTableViewCell.swift in Sources */,
 				60DA464A27F5DBF600C247AB /* BaseModel.swift in Sources */,
+				601D069227FB19B0008699D7 /* BasicAcceViewController.swift in Sources */,
 				60DA465027F5E42C00C247AB /* UIKitItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
