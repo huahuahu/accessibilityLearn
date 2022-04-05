@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+  <h1>Image Alt</h1>
+  <h2>Image No alt</h2>
+  <div>
+    <p>Would read image name</p>
+    <img src="https://raw.githubusercontent.com/huahuahu/cloudPhoto/main/deck.jpg"  height="200">
+  </div>
+
+  <h2>Image  alt</h2>
+  <div>
+    <p>Would read alt</p>
+    <img src="https://raw.githubusercontent.com/huahuahu/cloudPhoto/main/deck.jpg" alt="Demo image" height="200">
+  </div>
+
+  <h2>Image  alt empty</h2>
+  <div>
+    <p>Would skip image</p>
+    <img src="https://raw.githubusercontent.com/huahuahu/cloudPhoto/main/deck.jpg" alt="" height="200">
+  </div>
+
+  <h2>Image  using aria-labelledby</h2>
+  <div>
+    <p>Would read content below image</p>
+    <img src="https://raw.githubusercontent.com/huahuahu/cloudPhoto/main/deck.jpg" aria-labelledby="desc" alt="demo" height="200">
+    <p id="desc">this is a demo image</p>
+  </div>
+
+
+</body>
+
+</html>
