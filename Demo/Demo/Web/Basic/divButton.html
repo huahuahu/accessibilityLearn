@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+  <h1>Div As Button</h1>
+  <h2>Real button</h2>
+  <button>This is a button</button>
+  <div id="buttonResult"> button not clicked</div>
+  <h2 >Div button</h2>
+  <div id="divButton">This is a div</div>
+  <div id="divResult"> div not clicked</div>
+
+</body>
+<script defer>
+  console.log('run script')
+  const button = document.querySelector('button')
+  button.addEventListener('click', () => {
+    console.log('click')
+    let resultDiv = document.querySelector('#buttonResult')
+    resultDiv.innerHTML = "button clicked"
+  })
+
+  const div = document.querySelector('#divButton')
+  div.addEventListener('click', () => {
+    console.log('click')
+    let resultDiv = document.querySelector('#divResult')
+    resultDiv.innerHTML = "div clicked"
+  })
+
+</script>
+</html>

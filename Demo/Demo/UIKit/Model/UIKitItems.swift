@@ -16,11 +16,11 @@ enum UIKitItems: String, CaseIterable {
   var item: Item {
     switch self {
     case .postNotification:
-      return .detail(title: rawValue, vc: TestPostNotificationVC())
+      return .detail(title: rawValue, vc: { TestPostNotificationVC() })
     case .tableViewCell:
-      return .detail(title: rawValue, vc: TestTableViewVC())
+      return .detail(title: rawValue, vc: { TestTableViewVC() })
     case .basicAttributes:
-      return .detail(title: rawValue, vc: BasicAcceViewController())
+      return .detail(title: rawValue, vc: { BasicAcceViewController() })
     }
   }
 }

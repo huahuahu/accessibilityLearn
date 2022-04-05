@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
   let cellReuseID = "cellReuseID"
   var dataSource: DataSource = .init(title: "Demo", items: [
-    .subItem(title: "web", item: []),
+    .subItem(title: "web", item: WebItems.allCases.map(\.item)),
     .subItem(title: "uikit", item: UIKitItems.allCases.map(\.item)),
     .subItem(title: "swiftui", item: []),
   ])
@@ -64,7 +64,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     let item = dataSource.items[indexPath.row]
     switch item {
-    case let .detail(title: title, vc: vc):
+    case let .detail(title: title, vc: vcClosure):
+      let vc = vcClosure()
       vc.title = title
       navigationController?.pushViewController(vc, animated: true)
     case let .subItem(title: title, item: items):

@@ -64,7 +64,6 @@ class LabelWithText: UIView {
       stackView.trailingAnchor.constraint(equalTo: trailingAnchor),
       stackView.topAnchor.constraint(equalTo: topAnchor),
       stackView.bottomAnchor.constraint(equalTo: bottomAnchor),
-
     ])
   }
 }

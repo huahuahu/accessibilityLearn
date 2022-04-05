@@ -30,7 +30,6 @@ class SelectionWithTitle<T: SelectableValue>: UIView {
     button.setTitle(title, for: .normal)
     button.setTitleColor(.label, for: .normal)
     return button
-
   }()
 
   init(title: String, currentValue: T, allValues: [T]) {
@@ -68,7 +67,6 @@ class SelectionWithTitle<T: SelectableValue>: UIView {
       stackView.trailingAnchor.constraint(equalTo: trailingAnchor),
       stackView.topAnchor.constraint(equalTo: topAnchor),
       stackView.bottomAnchor.constraint(equalTo: bottomAnchor),
-
     ])
   }
 

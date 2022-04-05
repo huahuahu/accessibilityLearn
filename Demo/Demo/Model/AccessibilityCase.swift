@@ -10,7 +10,7 @@ import UIKit
 
 enum Item {
   case subItem(title: String, item: [Item])
-  case detail(title: String, vc: UIViewController)
+  case detail(title: String, vc: () -> UIViewController)
 
   var title: String {
     switch self {
