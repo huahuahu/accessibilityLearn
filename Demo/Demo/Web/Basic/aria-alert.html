@@ -8,13 +8,16 @@
 
 </head>
 <body>
-  <h1>Div As Button</h1>
-  <h2>Real button</h2>
+  <h2>Aria Alert</h2>
+  <p>Click this button would change div and would readout the change</p>
   <button>This is a button</button>
-  <div id="buttonResult"> button not clicked</div>
-  <h2 >Div button</h2>
-  <div id="divButton" tabindex="0" role="button">This is a div</div>
-  <div id="divResult"> div not clicked</div>
+  
+  <div aria-atomic="true" aria-live="assertive">
+    outer headings
+    <div id="buttonResult"> button not clicked</div>
+
+  </div>
+
 
 </body>
 <script defer>
@@ -26,12 +29,7 @@
     resultDiv.innerHTML = "button clicked"
   })
 
-  const div = document.querySelector('#divButton')
-  div.addEventListener('click', () => {
-    console.log('click')
-    let resultDiv = document.querySelector('#divResult')
-    resultDiv.innerHTML = "div clicked"
-  })
+
 
 </script>
 </html>

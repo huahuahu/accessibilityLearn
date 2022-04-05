@@ -12,6 +12,8 @@ enum WebItems: String, CaseIterable {
   case divAsButton
   case imageAlt
   case tabbedInfo
+  case ariaDisable
+  case ariaAlert
 
   var item: Item {
     switch self {
@@ -19,7 +21,7 @@ enum WebItems: String, CaseIterable {
       return .detail(title: rawValue, vc: { WebBasicVC(htmlString: htmlString) })
     case .divAsButton:
       return .detail(title: rawValue, vc: { WebBasicVC(htmlString: htmlString) })
-    case .imageAlt, .tabbedInfo:
+    case .imageAlt, .tabbedInfo, .ariaDisable, .ariaAlert:
       return .detail(title: rawValue, vc: { WebBasicVC(htmlString: htmlString) })
     }
   }
@@ -34,6 +36,10 @@ enum WebItems: String, CaseIterable {
       return htmlFrom(file: "imageAlt")
     case .tabbedInfo:
       return htmlFrom(file: "tabbedInfo")
+    case .ariaDisable:
+      return htmlFrom(file: "aria-disable")
+    case .ariaAlert:
+      return htmlFrom(file: "aria-alert")
     }
   }
 

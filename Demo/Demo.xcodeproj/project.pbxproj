@@ -17,6 +17,8 @@
 		60CE5B1E27FC0A50002C832E /* divButton.html in Resources */ = {isa = PBXBuildFile; fileRef = 602E02FE27FC02DD008EEEFE /* divButton.html */; };
 		60CE5B2027FC0E88002C832E /* imageAlt.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5B1F27FC0E7E002C832E /* imageAlt.html */; };
 		60CE5B2227FC13D0002C832E /* tabbedInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5B2127FC13CD002C832E /* tabbedInfo.html */; };
+		60CE5B2427FC1D5E002C832E /* aria-disable.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5B2327FC1D4E002C832E /* aria-disable.html */; };
+		60CE5B2627FC260D002C832E /* aria-alert.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5B2527FC25F6002C832E /* aria-alert.html */; };
 		60DA461727F5D56000C247AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA461627F5D56000C247AB /* AppDelegate.swift */; };
 		60DA461927F5D56000C247AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA461827F5D56000C247AB /* SceneDelegate.swift */; };
 		60DA461B27F5D56000C247AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DA461A27F5D56000C247AB /* ViewController.swift */; };
@@ -61,6 +63,8 @@
 		602E02FE27FC02DD008EEEFE /* divButton.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = divButton.html; sourceTree = "<group>"; };
 		60CE5B1F27FC0E7E002C832E /* imageAlt.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = imageAlt.html; sourceTree = "<group>"; };
 		60CE5B2127FC13CD002C832E /* tabbedInfo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = tabbedInfo.html; sourceTree = "<group>"; };
+		60CE5B2327FC1D4E002C832E /* aria-disable.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "aria-disable.html"; sourceTree = "<group>"; };
+		60CE5B2527FC25F6002C832E /* aria-alert.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "aria-alert.html"; sourceTree = "<group>"; };
 		60DA461327F5D56000C247AB /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DA461627F5D56000C247AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DA461827F5D56000C247AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 			children = (
 				601D069C27FB2DF6008699D7 /* Basic.swift */,
 				602E02FE27FC02DD008EEEFE /* divButton.html */,
+				60CE5B2327FC1D4E002C832E /* aria-disable.html */,
+				60CE5B2527FC25F6002C832E /* aria-alert.html */,
 				60CE5B2127FC13CD002C832E /* tabbedInfo.html */,
 				60CE5B1F27FC0E7E002C832E /* imageAlt.html */,
 				601D06A227FB2F16008699D7 /* Basic.html */,
@@ -366,6 +372,8 @@
 			files = (
 				60DA462327F5D56200C247AB /* LaunchScreen.storyboard in Resources */,
 				60CE5B1E27FC0A50002C832E /* divButton.html in Resources */,
+				60CE5B2427FC1D5E002C832E /* aria-disable.html in Resources */,
+				60CE5B2627FC260D002C832E /* aria-alert.html in Resources */,
 				60CE5B2027FC0E88002C832E /* imageAlt.html in Resources */,
 				60DA462027F5D56200C247AB /* Assets.xcassets in Resources */,
 				60DA461E27F5D56000C247AB /* Main.storyboard in Resources */,
