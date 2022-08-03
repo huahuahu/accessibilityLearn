@@ -14,6 +14,7 @@ enum WebItems: String, CaseIterable {
   case tabbedInfo
   case ariaDisable
   case ariaAlert
+  case zeroWidthSpaceAfterRestyle
 
   var item: Item {
     switch self {
@@ -23,6 +24,8 @@ enum WebItems: String, CaseIterable {
       return .detail(title: rawValue, vc: { WebBasicVC(htmlString: htmlString) })
     case .imageAlt, .tabbedInfo, .ariaDisable, .ariaAlert:
       return .detail(title: rawValue, vc: { WebBasicVC(htmlString: htmlString) })
+    case .zeroWidthSpaceAfterRestyle:
+        return .detail(title: rawValue, vc: { TriggerWebFromNativeVC(htmlString: htmlString)})
     }
   }
 
@@ -40,6 +43,8 @@ enum WebItems: String, CaseIterable {
       return htmlFrom(file: "aria-disable")
     case .ariaAlert:
       return htmlFrom(file: "aria-alert")
+    case .zeroWidthSpaceAfterRestyle:
+        return htmlFrom(file: "zero-width-space-after-restyle")
     }
   }
 
