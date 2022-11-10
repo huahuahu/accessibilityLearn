@@ -13,6 +13,7 @@ enum UIKitItems: String, CaseIterable {
   case tableViewCell
   case basicAttributes
   case rotor
+case focus
 
   var item: Item {
     switch self {
@@ -26,6 +27,8 @@ enum UIKitItems: String, CaseIterable {
       return .detail(title: rawValue, vc: {
         RotorDemoViewController()
       })
+    case .focus:
+        return .detail(title: rawValue, vc: {FocusVC()})
     }
   }
 }

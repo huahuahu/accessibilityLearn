@@ -14,9 +14,9 @@ enum Item {
 
   var title: String {
     switch self {
-    case let .subItem(title, item):
+    case let .subItem(title, _):
       return title
-    case let .detail(title, vc):
+    case let .detail(title, _):
       return title
     }
   }

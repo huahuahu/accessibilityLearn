@@ -20,7 +20,7 @@ class TriggerWebFromNativeVC: WebBasicVC {
 
     @objc func onClicked() {
         webView.evaluateJavaScript("fromNative()") { result, err in
-            print("\(result), err: \(err)")
+            print("\(String(describing: result)), err: \(String(describing: err))")
         }
     }
     

@@ -67,7 +67,7 @@ class BasicAcceViewController: UIViewController {
     .store(in: &cancallebles)
 
     lableEditor.$currentValue.sink { label in
-      print("accessibilityLabel is \(label)")
+        print("accessibilityLabel is \(String(describing: label))")
       self.uiControl.accessibilityLabel = label
     }
     .store(in: &cancallebles)

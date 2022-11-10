@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601C235A291D16EF005F50BA /* FocusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601C2359291D16EF005F50BA /* FocusVC.swift */; };
 		601D069227FB19B0008699D7 /* BasicAcceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D069127FB19B0008699D7 /* BasicAcceViewController.swift */; };
 		601D069727FB1F45008699D7 /* ToggleWithTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D069627FB1F45008699D7 /* ToggleWithTextView.swift */; };
 		601D069927FB2550008699D7 /* SelectionWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D069827FB2550008699D7 /* SelectionWithTitle.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601C2359291D16EF005F50BA /* FocusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusVC.swift; sourceTree = "<group>"; };
 		601D069127FB19B0008699D7 /* BasicAcceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAcceViewController.swift; sourceTree = "<group>"; };
 		601D069627FB1F45008699D7 /* ToggleWithTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleWithTextView.swift; sourceTree = "<group>"; };
 		601D069827FB2550008699D7 /* SelectionWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionWithTitle.swift; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 				60DA465227F5E57000C247AB /* PostNotification.swift */,
 				60CE5B2727FC32FC002C832E /* RotorDemoViewController.swift */,
 				60DA465427F5E83900C247AB /* TestTableViewCell.swift */,
+				601C2359291D16EF005F50BA /* FocusVC.swift */,
 				601D069327FB19CF008699D7 /* BasicAttribute */,
 			);
 			path = Basic;
@@ -418,6 +421,7 @@
 				6071B5BC28991D4700AA32F6 /* TriggerWebFromNativeVC.swift in Sources */,
 				60DA461B27F5D56000C247AB /* ViewController.swift in Sources */,
 				601D069B27FB2929008699D7 /* LabelWithText.swift in Sources */,
+				601C235A291D16EF005F50BA /* FocusVC.swift in Sources */,
 				60DA461727F5D56000C247AB /* AppDelegate.swift in Sources */,
 				601D069727FB1F45008699D7 /* ToggleWithTextView.swift in Sources */,
 				60DA464827F5D6AC00C247AB /* AccessibilityCase.swift in Sources */,
