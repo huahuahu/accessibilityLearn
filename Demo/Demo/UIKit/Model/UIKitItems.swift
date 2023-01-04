@@ -14,6 +14,7 @@ enum UIKitItems: String, CaseIterable {
   case basicAttributes
   case rotor
 case focus
+    case customeAccessibilityElements
 
   var item: Item {
     switch self {
@@ -29,6 +30,8 @@ case focus
       })
     case .focus:
         return .detail(title: rawValue, vc: {FocusVC()})
+    case .customeAccessibilityElements:
+        return .detail(title: rawValue, vc: { CustomAccessibilityElementsVC() })
     }
   }
 }
